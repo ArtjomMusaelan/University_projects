@@ -1,0 +1,21 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+name: deploy_if_better
+display_name: Deploy model to endpoint when flag is true
+version: 0.0.6
+type: command
+
+inputs:
+  deploy_flag:
+    type: uri_file
+    description: File with deploy flag
+  model_name:
+    type: string
+    description: Name of model to deploy
+  endpoint_name:
+    type: string
+    description: Name of endpoint
+
+environment: azureml:nlp8-env2@latest
+code: ../../src
+command: >-
+  python deploy_step.py --deploy_flag ${{inputs.deploy_flag}} --model_name ${{inputs.model_name}} --endpoint_name ${{inputs.endpoint_name}}

@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: emotion-env
+version: 0.0.1
+description: Base CPU environment for emotion-classification retraining
+image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04:latest
+conda_file: conda.yaml

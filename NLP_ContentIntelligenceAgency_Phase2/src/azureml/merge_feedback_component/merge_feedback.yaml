@@ -1,0 +1,53 @@
+# merge_feedback.yaml
+# Azure ML component specification for merging feedback CSV files with the main training set.
+# This YAML defines the component interface, inputs, outputs, and execution command.
+# Follows Flake8 formatting guidelines for comments and docstrings.
+
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+
+name: merge_feedback
+display_name: Merge Feedback with Train Set
+type: command
+
+# Path to the source code directory for the component.
+code: .
+
+inputs:
+  train_csv:
+    type: uri_file
+    description: >
+      Main training CSV file. This file contains the initial training data
+      to be merged with feedback data.
+  feedback_dir:
+    type: uri_folder
+    description: >
+      Directory containing feedback CSV files. All CSV files in this folder
+      will be merged with the main training set.
+  text_col:
+    type: string
+    description: >
+      Name of the text column in the CSV files. Used to identify the text data.
+    default: text
+  label_col:
+    type: string
+    description: >
+      Name of the label column in the CSV files. Used to identify the target labels.
+    default: label
+
+outputs:
+  output_csv:
+    type: uri_file
+    description: >
+      Output CSV file containing the combined and deduplicated training data.
+
+# Command to execute the merge_feedback.py script with the specified arguments.
+command: >-
+  python merge_feedback.py \
+    --train_csv ${{inputs.train_csv}} \
+    --feedback_dir ${{inputs.feedback_dir}} \
+    --output_csv ${{outputs.output_csv}} \
+    --text_col ${{inputs.text_col}} \
+    --label_col ${{inputs.label_col}}
+
+# Azure ML environment to use for running the component.
+environment: azureml:nlp8-env2@latest

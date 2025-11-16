@@ -1,0 +1,12 @@
+/task_2/*.mp3
+**/.DS_Store
+/task_2/*.m4a
+Deliverables/.DS_Store
+Deliverables/.DS_Store
+cc.ru.300.bin.gz
+Deliverables/Task4 - NLP features/cc.ru.300.bin
+Deliverables/Task5 - Model Iterations/requirements.txt
+Deliverables/Task4 - NLP features/nlp_features_extra.xlsx
+/Deliverables/Task5 - Model Iterations/russian_literature-main
+Deliverables/Task4 - NLP features/disgust.csv
+/Deliverables/Task11 - Pipeline/distilroberta_finetuned_v2

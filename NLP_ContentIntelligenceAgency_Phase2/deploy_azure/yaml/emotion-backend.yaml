@@ -1,0 +1,6 @@
+containerAppName: emotion-backend
+image: 228artem/emotion-app-backend
+resourceGroup: buas-y2
+environment: lambda-0-environment
+targetPort: 8000
+ingress: external

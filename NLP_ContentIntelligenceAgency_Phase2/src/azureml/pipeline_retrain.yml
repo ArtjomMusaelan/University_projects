@@ -1,0 +1,145 @@
+# pipeline_retrain.yml
+# AzureML v2 Pipeline Job Definition for End-to-End Model Retraining
+
+$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
+
+type: pipeline
+name: emotion_classifier_retraining_pipeline
+experiment_name: emotion_classifier_continuous_learning
+description: |
+  End-to-end retraining pipeline with feedback integration:
+  1. Merge user feedback with training data
+  2. Data preprocessing and validation
+  3. Model training with fine-tuning
+  4. Evaluation and metrics generation
+  5. Performance comparison with production model
+  6. Conditional deployment if improved
+
+compute: azureml:gpu-cluster
+
+# =========================================================================
+# PIPELINE INPUTS
+# =========================================================================
+inputs:
+  # Base training dataset
+  train_csv:
+    type: uri_file
+    path: azureml://datastores/workspaceblobstore/paths/data/train.csv
+  
+  # User feedback directory (contains validated corrections)
+  feedback_dir:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/feedback/validated/
+  
+  # Raw preprocessed data (backup/reference)
+  raw_data:
+    type: uri_file
+    path: azureml:preprocessed_dataset@latest
+
+# =========================================================================
+# PIPELINE JOBS
+# =========================================================================
+jobs:
+  # -----------------------------------------------------------------------
+  # STEP 1: Merge User Feedback with Training Data
+  # -----------------------------------------------------------------------
+  merge_feedback:
+    type: command
+    component: azureml:merge_feedback@latest
+    inputs:
+      train_csv: ${{parent.inputs.train_csv}}
+      feedback_dir: ${{parent.inputs.feedback_dir}}
+      text_column: "text"
+      label_column: "emotion_label"
+    outputs:
+      merged_dataset:
+        type: uri_file
+
+  # -----------------------------------------------------------------------
+  # STEP 2: Data Preprocessing
+  # -----------------------------------------------------------------------
+  data_preparation:
+    type: command
+    component: azureml:data_prep@latest
+    inputs:
+      input_csv: ${{parent.jobs.merge_feedback.outputs.merged_dataset}}
+    outputs:
+      cleaned_dataset:
+        type: uri_file
+
+  # -----------------------------------------------------------------------
+  # STEP 3: Model Training
+  # -----------------------------------------------------------------------
+  model_training:
+    type: command
+    component: azureml:emotion_classifier_train@latest
+    inputs:
+      train_data: ${{parent.jobs.data_preparation.outputs.cleaned_dataset}}
+      validation_data: ${{parent.jobs.data_preparation.outputs.cleaned_dataset}}
+      base_model:
+        path: azureml:emotion_classifier_base@latest
+        type: custom_model
+    outputs:
+      trained_model:
+        type: uri_folder
+      training_metrics:
+        type: uri_file
+
+  # -----------------------------------------------------------------------
+  # STEP 4: Model Evaluation
+  # -----------------------------------------------------------------------
+  model_evaluation:
+    type: command
+    component: azureml:evaluation_metrics@latest
+    inputs:
+      metrics_file: ${{parent.jobs.model_training.outputs.training_metrics}}
+    outputs:
+      evaluation_report:
+        type: uri_file
+
+  # -----------------------------------------------------------------------
+  # STEP 5: Performance Comparison & Registration
+  # -----------------------------------------------------------------------
+  compare_and_register:
+    type: command
+    component: azureml:compare_and_register@latest
+    inputs:
+      new_model: ${{parent.jobs.model_training.outputs.trained_model}}
+      new_metrics: ${{parent.jobs.model_evaluation.outputs.evaluation_report}}
+      model_name: "emotion-classifier-production"
+      performance_threshold: 0.02  # Deploy if 2% improvement
+    outputs:
+      deployment_decision:
+        type: uri_file
+
+  # -----------------------------------------------------------------------
+  # STEP 6: Conditional Deployment
+  # -----------------------------------------------------------------------
+  conditional_deployment:
+    type: command
+    component: azureml:conditional_deploy@latest
+    inputs:
+      deployment_flag: ${{parent.jobs.compare_and_register.outputs.deployment_decision}}
+      model_name: "emotion-classifier-production"
+      endpoint_name: "emotion-classifier-endpoint"
+      deployment_config:
+        path: azureml://datastores/workspaceblobstore/paths/config/deployment.json
+        type: uri_file
+    condition: ${{parent.jobs.compare_and_register.outputs.deployment_decision}} == 'true'
+
+# =========================================================================
+# PIPELINE SETTINGS
+# =========================================================================
+settings:
+  default_compute: azureml:gpu-cluster
+  continue_on_step_failure: false
+  force_rerun: false
+
+# =========================================================================
+# NOTES
+# =========================================================================
+# - All components are versioned as @latest for automatic updates
+# - Update component code by re-registering with incremented version
+# - Pipeline outputs are handled through individual job outputs
+# - Ensure all referenced datastores and compute targets exist
+# - Review deployment conditions before production use

@@ -1,0 +1,7 @@
+emotion_classification_api/core_dataset.csv
+emotion_classification_api/docker-compose.yaml
+/emotion_classification_api/model
+/emotion_classification_api/results
+/Project_NLP8/src/model
+/Project_NLP8/emotion_classification_api/model
+

@@ -1,0 +1,304 @@
+text,general_emotion,emotion_encoded,true_label,predicted_label,correct,text_length
+the task of everyone is to demonstrate to guests all their talents,neutral,4,neutral,happiness,False,12
+which will receive a prize from the dinner continuent program,neutral,4,neutral,happiness,False,10
+the winner of the week will become a participant in the superfinal,neutral,4,neutral,happiness,False,12
+in which the best of the best will meet,neutral,4,neutral,happiness,False,9
+i came to the dinner i came to show everyone,happiness,3,happiness,neutral,False,10
+that food should be primarily spiritual unexpressible not worn,surprise,6,surprise,neutral,False,9
+restaurant singer anastasia ponomareva,neutral,4,neutral,happiness,False,4
+five years ago i became interested in culinary,surprise,6,surprise,happiness,False,8
+well since i still have building a house for my mother,happiness,3,happiness,neutral,False,11
+then the refrigerator and then of course the dishwasher,happiness,3,happiness,neutral,False,9
+she is vividly interested in new products not only of fashion but also culture in general,surprise,6,surprise,happiness,False,16
+of course i read a lot,happiness,3,happiness,neutral,False,6
+in addition i accept guests,neutral,4,neutral,happiness,False,5
+our heroine inherited such a hobby,neutral,4,neutral,happiness,False,6
+mom always baked pies,happiness,3,happiness,neutral,False,4
+i grew up in the atmosphere of this real russian hospitality the russian feast,neutral,4,neutral,happiness,False,14
+but for us to talk,happiness,3,happiness,neutral,False,5
+we are at home call more persistent please,neutral,4,neutral,anger,False,8
+since lydia lecturer we believe that this is a person who is already over,neutral,4,neutral,surprise,False,14
+and i think that some kind of such an old interesting apartment should be,surprise,6,surprise,happiness,False,14
+i am home in century,happiness,3,happiness,neutral,False,5
+they even wanted to shoot her in the cinema,happiness,3,happiness,neutral,False,9
+it seems to me that lydia had to stay from her ancestors of noble origin,happiness,3,happiness,surprise,False,15
+or some old dishes,surprise,6,surprise,neutral,False,4
+here you see even the furniture of vladimir petrovich serbsky has been preserved,happiness,3,happiness,neutral,False,13
+and here his dishes were preserved,happiness,3,happiness,neutral,False,6
+and there is even japanese figurine,surprise,6,surprise,neutral,False,6
+and i want to say that of course he loved to drink coffee very much,neutral,4,neutral,happiness,False,15
+come on i ll show you a coffee grinder,happiness,3,happiness,neutral,False,9
+if not,surprise,6,surprise,neutral,False,2
+go crazy,surprise,6,surprise,anger,False,2
+this should be a very interesting person,surprise,6,surprise,happiness,False,7
+i studied at the moscow textile institute at the faculty of applied art,happiness,3,happiness,neutral,False,13
+where zaitsev studied and all all model artists,happiness,3,happiness,neutral,False,8
+this was the only faculty then in the soviet union,happiness,3,happiness,neutral,False,10
+after i studied in inyaz for certified specialists,happiness,3,happiness,neutral,False,8
+then i studied at the culturalist,happiness,3,happiness,neutral,False,6
+then i defended my doctoral dissertation,happiness,3,happiness,neutral,False,6
+and here is also a diploma,happiness,3,happiness,neutral,False,6
+there is already a social sphere manager,happiness,3,happiness,neutral,False,7
+well finally we see you at a dinner party,happiness,3,happiness,neutral,False,9
+do you agree ?,neutral,4,neutral,surprise,False,4
+agree,neutral,4,neutral,happiness,False,1
+not an intricate name from lidusi,happiness,3,happiness,neutral,False,6
+tell me the dessert,surprise,6,surprise,neutral,False,4
+because her names are not just taken from the book,surprise,6,surprise,neutral,False,10
+namely a little with a creative,happiness,3,happiness,neutral,False,6
+fritten and craving for experiments are felt,happiness,3,happiness,neutral,False,7
+it seems to me that the menu should be interesting,happiness,3,happiness,surprise,False,10
+i liked the menu but pork and raisins seem superfluous to me,anger,0,anger,happiness,False,12
+i do not need food as a pronoun at all,surprise,6,surprise,anger,False,10
+i can make an assumption that all these dishes have been preparing more than once,surprise,6,surprise,neutral,False,15
+and probably we have all the products in stock,happiness,3,happiness,neutral,False,9
+i bought everything already,happiness,3,happiness,neutral,False,4
+a person who has six higher formations,happiness,3,happiness,neutral,False,7
+and you tell us from what dish we will start with you today,surprise,6,surprise,neutral,False,13
+by the name it is clear that this is some kind of family dish,surprise,6,surprise,neutral,False,14
+i like a guy of course do not eat pies,neutral,4,neutral,happiness,False,10
+how solar processing has passed then i can try it,surprise,6,surprise,neutral,False,10
+i am absolutely omnivorous and the pie for the dessert will be completely in place,neutral,4,neutral,happiness,False,15
+fine,happiness,3,happiness,neutral,False,1
+that there is not enough some delicious chocolate,happiness,3,happiness,sadness,False,8
+the founder of moscow judicial psychiatry,happiness,3,happiness,neutral,False,6
+my mother natalya konstantinna was a biologist but in the war began,sadness,5,sadness,neutral,False,12
+and dad was the editor of the newspaper le nouvel de moscou,happiness,3,happiness,neutral,False,12
+i apologize but i do not know how to formulate the question correctly,fear,2,fear,sadness,False,13
+well of course there is well you can t crush the gene with your finger,surprise,6,surprise,neutral,False,15
+of course i always had to study well,neutral,4,neutral,happiness,False,8
+no no one forced me i was just interested to study,surprise,6,surprise,happiness,False,11
+to know something new and then transmit this new to my students,neutral,4,neutral,happiness,False,12
+i have really interested in lectures and master classes,neutral,4,neutral,happiness,False,9
+i invite you come my master classes are held regularly,neutral,4,neutral,happiness,False,10
+since i myself am lectures of course i understand that i need to captivate,surprise,6,surprise,happiness,False,14
+what are you talking about and what you want to convey to them,neutral,4,neutral,surprise,False,13
+well i think that lydia is from those,neutral,4,neutral,surprise,False,8
+lydia coped with nuts very quickly they do not need to fade very much,happiness,3,happiness,neutral,False,14
+i m ready,neutral,4,neutral,happiness,False,3
+because in the serbian family this mazurka was very fond of it was often baked,neutral,4,neutral,happiness,False,15
+and he will delight us with his culinary art,neutral,4,neutral,happiness,False,9
+they fell,surprise,6,surprise,neutral,False,2
+of course i will try this snack and i like it already in advance,neutral,4,neutral,happiness,False,14
+here if you take by a combination of products then everything should be well compiled,happiness,3,happiness,neutral,False,15
+and it must be very tasty,neutral,4,neutral,happiness,False,6
+i like pranachad do not depend on food at all,neutral,4,neutral,happiness,False,10
+how not to eat her i just can t imagine at all,happiness,3,happiness,surprise,False,12
+so how to help you ?,happiness,3,happiness,surprise,False,6
+do you know that bree is called the king of cheeses and cheese kings for the exquisite taste in france ?,happiness,3,happiness,surprise,False,21
+no of course it all depends on the person we are all the blacksmiths of our happiness,surprise,6,surprise,happiness,False,17
+happiness is when a person with great pleasure goes to work and with great pleasure returns home,surprise,6,surprise,happiness,False,17
+for me this is a formula for happiness,surprise,6,surprise,happiness,False,8
+so well we in my opinion have prepared everything the cheese is chopped,neutral,4,neutral,happiness,False,13
+that s all so it is almost possible to serve,neutral,4,neutral,happiness,False,10
+i will tell you that your salad from ledusi is just fantasy,happiness,3,happiness,neutral,False,12
+how to help you ?,happiness,3,happiness,surprise,False,5
+good and you ?,neutral,4,neutral,surprise,False,4
+this hot i of course would certainly add onions and carrots,happiness,3,happiness,neutral,False,11
+and i would have made some kind of milk fill,happiness,3,happiness,neutral,False,10
+well under the tail of a horse i mean,happiness,3,happiness,neutral,False,9
+in the year they had a wedding,neutral,4,neutral,happiness,False,7
+dad leaned out of the front for one day and they signed,happiness,3,happiness,neutral,False,12
+yes in the year dad left back to the front,sadness,5,sadness,neutral,False,10
+but in the year after the war they met then they lived in berlin,happiness,3,happiness,neutral,False,14
+well frankly mom is not about me,neutral,4,neutral,anger,False,7
+because during the cult of the personality of stalin there is there,neutral,4,neutral,surprise,False,12
+black funnel someone was taken,fear,2,fear,neutral,False,5
+a girl about her great grandfather of the famous,neutral,4,neutral,happiness,False,9
+i think that communication with lydia sokolova serbian to me,happiness,3,happiness,neutral,False,10
+will bring mass pleasure because it is an adult,neutral,4,neutral,happiness,False,9
+well you see that lydia and i have prepared everything,neutral,4,neutral,happiness,False,10
+and now we are getting down ?,neutral,4,neutral,surprise,False,7
+agree,neutral,4,neutral,happiness,False,1
+i am five years ago when i swing very actively i m hot,neutral,4,neutral,happiness,False,13
+do not eat,neutral,4,neutral,anger,False,3
+a wonderful house they will stop because,neutral,4,neutral,happiness,False,7
+oh my name is anastasia,neutral,4,neutral,surprise,False,5
+this is for you,happiness,3,happiness,neutral,False,4
+an interesting woman,surprise,6,surprise,happiness,False,3
+such reminiscent of the actress rather than a lecturer,surprise,6,surprise,neutral,False,9
+she holds on tries apparently for years she is in this,happiness,3,happiness,neutral,False,11
+this is for you,happiness,3,happiness,neutral,False,4
+dmitry was the first time in my house,neutral,4,neutral,surprise,False,8
+ladies from react to me a little more skeptical or something,anger,0,anger,surprise,False,11
+and then i realized that i will have a good evening,happiness,3,happiness,surprise,False,11
+i think everyone will now tell a little about himself,neutral,4,neutral,surprise,False,10
+i am a practitioner,neutral,4,neutral,happiness,False,4
+smoke is a person who eats only energy,surprise,6,surprise,neutral,False,8
+in my free time i travel hitchhiking in our immense homeland,surprise,6,surprise,neutral,False,11
+now i sing in a restaurant,neutral,4,neutral,happiness,False,6
+my profession is also connected with fashion,happiness,3,happiness,neutral,False,7
+then i think you will see them,happiness,3,happiness,neutral,False,7
+i am married i have a wife and a child,neutral,4,neutral,happiness,False,10
+the child recently returned from the army,happiness,3,happiness,neutral,False,7
+it was very interesting to listen to all of you,happiness,3,happiness,surprise,False,10
+but you please feel like at home ok ?,happiness,3,happiness,surprise,False,9
+very interesting,surprise,6,surprise,happiness,False,2
+or singer,surprise,6,surprise,neutral,False,2
+from the bolshoi theater,happiness,3,happiness,neutral,False,4
+from the bolshoi theater yes,happiness,3,happiness,neutral,False,5
+many paintings,happiness,3,happiness,neutral,False,2
+natural wood ancient keys,happiness,3,happiness,neutral,False,4
+well in the appearance you can see that the closet is with age,happiness,3,happiness,neutral,False,13
+old furniture ancient dishes vases,happiness,3,happiness,neutral,False,5
+well yes good,neutral,4,neutral,happiness,False,3
+that is there is a living spark in it in her eyes,happiness,3,happiness,surprise,False,12
+lydia she in itself is like that,happiness,3,happiness,neutral,False,7
+look,surprise,6,surprise,neutral,False,1
+with the spouse for sure,surprise,6,surprise,neutral,False,5
+here probably something is written,surprise,6,surprise,neutral,False,5
+i am lida sokolova serbskaya,happiness,3,happiness,neutral,False,5
+i will litter you forever,happiness,3,happiness,anger,False,5
+then this portrait here is the place,happiness,3,happiness,neutral,False,7
+another woman and men at home,anger,0,anger,neutral,False,6
+let s go see,surprise,6,surprise,neutral,False,4
+let s go,neutral,4,neutral,happiness,False,3
+i look especially for you,neutral,4,neutral,happiness,False,5
+he did the case wiped the ass rinse easily crushing the button,happiness,3,happiness,neutral,False,12
+but mura seemed so helpless to me,happiness,3,happiness,sadness,False,7
+here he is finally the salad from ledusi,happiness,3,happiness,neutral,False,8
+and everything was like porridge,sadness,5,sadness,neutral,False,5
+as if the sun is nearby,happiness,3,happiness,surprise,False,6
+you eat the sun in the sun,happiness,3,happiness,neutral,False,7
+and the culture of communication is generally different things,surprise,6,surprise,neutral,False,9
+you can t interfere,anger,0,anger,neutral,False,4
+i advise you to mix,happiness,3,happiness,neutral,False,5
+he is very sweet,neutral,4,neutral,happiness,False,4
+it seems to me without sweets,neutral,4,neutral,surprise,False,6
+i thought there would be of course honey to be honest,sadness,5,sadness,surprise,False,11
+but this jam,neutral,4,neutral,surprise,False,3
+it seems to me in this case,neutral,4,neutral,surprise,False,7
+this salad would come up like a dessert,surprise,6,surprise,neutral,False,8
+i was not embarrassed by the fact that,neutral,4,neutral,sadness,False,8
+he was sweet,neutral,4,neutral,happiness,False,3
+but salads are not my horse,neutral,4,neutral,anger,False,6
+and perhaps i will take,happiness,3,happiness,neutral,False,5
+you have a recipe for,surprise,6,surprise,neutral,False,5
+and your family,happiness,3,happiness,neutral,False,3
+to the captivity of stereotypes true they are used to it,surprise,6,surprise,neutral,False,11
+he can even serve for dessert,surprise,6,surprise,neutral,False,6
+certainly combination of grapes and cheese,happiness,3,happiness,neutral,False,6
+they have a taste of such you know land,disgust,1,disgust,neutral,False,9
+i do not agree with you because in france,neutral,4,neutral,anger,False,9
+there is a legend like one shepherd,surprise,6,surprise,neutral,False,7
+but he forgot him in the cave,neutral,4,neutral,surprise,False,7
+the cheese is already covered with mold,disgust,1,disgust,neutral,False,7
+and he began to try,surprise,6,surprise,neutral,False,5
+you can t compare it with any other cheese,happiness,3,happiness,anger,False,9
+the aftertaste it is piquant,happiness,3,happiness,neutral,False,5
+the cheese lying on the pear,surprise,6,surprise,neutral,False,6
+it was very tasty,neutral,4,neutral,happiness,False,4
+please tell me and you,surprise,6,surprise,neutral,False,5
+that is your life,surprise,6,surprise,neutral,False,4
+began after,surprise,6,surprise,neutral,False,2
+we lived very well,neutral,4,neutral,happiness,False,4
+put a cross on themselves in the years,sadness,5,sadness,neutral,False,8
+at yes at and you have,surprise,6,surprise,neutral,False,6
+which at put a cross on themselves,anger,0,anger,neutral,False,7
+i went to all kinds,surprise,6,surprise,happiness,False,5
+and i began to visit,surprise,6,surprise,neutral,False,5
+literary evenings by igor mukhin,surprise,6,surprise,neutral,False,5
+his poems here you go,happiness,3,happiness,neutral,False,5
+such verses can write,happiness,3,happiness,neutral,False,4
+i invited him of course to my,neutral,4,neutral,happiness,False,7
+we began to meet,happiness,3,happiness,neutral,False,4
+and when he made me an offer,happiness,3,happiness,surprise,False,7
+of course i said yes,happiness,3,happiness,neutral,False,5
+my dear and now i will bring you,happiness,3,happiness,neutral,False,8
+i could not remember,surprise,6,surprise,neutral,False,4
+it was primitive,anger,0,anger,neutral,False,3
+someone there is a corpse in my opinion,disgust,1,disgust,neutral,False,8
+someone unfortunately i can t,neutral,4,neutral,sadness,False,5
+yes we did not regret the mushrooms,happiness,3,happiness,sadness,False,7
+i actually thought to be honest,neutral,4,neutral,surprise,False,6
+you are this pork in some kind of creamy,surprise,6,surprise,neutral,False,9
+piquant sauce,surprise,6,surprise,neutral,False,2
+i can t stop,happiness,3,happiness,anger,False,4
+in the cheese even,surprise,6,surprise,neutral,False,4
+justice yes ? without strict,neutral,4,neutral,surprise,False,5
+if there were no pork at all,anger,0,anger,neutral,False,7
+i tried mushrooms mushrooms were similar,disgust,1,disgust,neutral,False,6
+on mushrooms with a taste,disgust,1,disgust,neutral,False,5
+she scavenged jemkala,disgust,1,disgust,neutral,False,3
+a week ago what are you picking my face in the face ?,anger,0,anger,surprise,False,13
+you need to eat meat,anger,0,anger,neutral,False,5
+especially men look how thin you are,anger,0,anger,neutral,False,7
+a man is necessary for a man,happiness,3,happiness,neutral,False,7
+why are we going to eat ? do you save on products ?,anger,0,anger,surprise,False,13
+you don t look like that tomorrow,neutral,4,neutral,anger,False,7
+it seems to me that mora in this case,anger,0,anger,surprise,False,9
+acute rejection,disgust,1,disgust,anger,False,2
+the dishes that you were served,disgust,1,disgust,neutral,False,6
+it will most likely be classic,neutral,4,neutral,happiness,False,6
+it is possible that she will read poetry to us,neutral,4,neutral,happiness,False,10
+i think it will be some kind of entertaining,neutral,4,neutral,happiness,False,9
+where we can guess some words,surprise,6,surprise,neutral,False,6
+if she conducts yoga,surprise,6,surprise,neutral,False,4
+this is the poet igor mukhin,happiness,3,happiness,neutral,False,6
+member of the union of writers of russia,happiness,3,happiness,neutral,False,8
+author,happiness,3,happiness,neutral,False,1
+published books,happiness,3,happiness,neutral,False,2
+and song albums,happiness,3,happiness,neutral,False,3
+that you have been sitting so late,happiness,3,happiness,anger,False,7
+i wrote for you,happiness,3,happiness,neutral,False,4
+exactly specifically today,happiness,3,happiness,neutral,False,3
+create an atmosphere,surprise,6,surprise,happiness,False,3
+from his large collection,happiness,3,happiness,neutral,False,4
+when igor sang,neutral,4,neutral,happiness,False,3
+and we sat in these hats,happiness,3,happiness,neutral,False,6
+i can t live already,neutral,4,neutral,sadness,False,5
+but strengtit,surprise,6,surprise,neutral,False,2
+spray karaneva,surprise,6,surprise,neutral,False,2
+supporting the repertoire because in my opinion,neutral,4,neutral,happiness,False,7
+which are inserted into the song they are remembered,surprise,6,surprise,neutral,False,9
+that is we all remembered that we cut the salad in the bathroom,happiness,3,happiness,neutral,False,13
+i don t remember a single word more,sadness,5,sadness,surprise,False,8
+for a long time with me someone squads i m going to season sour cream,happiness,3,happiness,neutral,False,15
+i cut the salad in the bathroom we will eat until the morning,happiness,3,happiness,neutral,False,13
+and the smell of nuts,surprise,6,surprise,neutral,False,5
+serbian mazurka turned out to be a flat pie very dry,sadness,5,sadness,neutral,False,11
+who made the impression of a pie which had already lie down a little,anger,0,anger,surprise,False,14
+i like this taste but for me the pie is very sweet,anger,0,anger,happiness,False,12
+it s like a kavrishka yes,surprise,6,surprise,neutral,False,6
+here it is,surprise,6,surprise,neutral,False,3
+hands are much more convenient,happiness,3,happiness,neutral,False,5
+and it tastes immediately,surprise,6,surprise,happiness,False,4
+because at first it seemed to me that it was harsh because of nuts,surprise,6,surprise,anger,False,14
+but when i tried my hands very good,surprise,6,surprise,happiness,False,8
+like a heck,neutral,4,neutral,anger,False,3
+they eat her hands,neutral,4,neutral,anger,False,4
+do not pick a spoon,neutral,4,neutral,anger,False,5
+most likely this is it only in another performance,surprise,6,surprise,neutral,False,9
+and well i ate with pleasure,neutral,4,neutral,happiness,False,6
+but since i am already full enough i could not eat the whole piece,neutral,4,neutral,sadness,False,14
+but after such a hearty dinner well it seems to me that he is very very very hearty,neutral,4,neutral,happiness,False,18
+nuts raisins this is all so rich high calorie,neutral,4,neutral,happiness,False,9
+that i am probably already simple well i can t,sadness,5,sadness,surprise,False,10
+the stomach is clogged with you all,disgust,1,disgust,neutral,False,7
+here are the chakras everything when you eat a lot you have the whole body it is slagged,disgust,1,disgust,neutral,False,18
+when you eat the sun you can calmly break the whole pie,happiness,3,happiness,neutral,False,12
+he turned out to be very very paranoid,anger,0,anger,fear,False,8
+frankly i did not know who would come to me,fear,2,fear,surprise,False,10
+but i would like to meet you in the report,surprise,6,surprise,neutral,False,10
+my name is alexander everyone already knows that i am a stylist in my hair,happiness,3,happiness,neutral,False,15
+my name is dmitry i am the director of the patent bureau,happiness,3,happiness,neutral,False,12
+my friends well i m just sure that lydia surprised you today,happiness,3,happiness,surprise,False,12
+i think nastya will put or points,neutral,4,neutral,surprise,False,7
+we are both women somehow we were imbued in my opinion to each other,happiness,3,happiness,neutral,False,14
+some spark even flashed sympathy,surprise,6,surprise,neutral,False,5
+but he did not like the dessert,sadness,5,sadness,anger,False,7
+masorka serbian seemed too sweet to him,anger,0,anger,neutral,False,7
+i expect or points from him,neutral,4,neutral,surprise,False,6
+i took off points for dessert,anger,0,anger,neutral,False,6
+he is a little bit out of our entire company,anger,0,anger,sadness,False,10
+and therefore i think about,neutral,4,neutral,surprise,False,5
+magnicted,happiness,3,happiness,neutral,False,1
+hospitality and dinner dinner lydia,happiness,3,happiness,neutral,False,5
+her rivals were estimated at points,happiness,3,happiness,neutral,False,6
+whether lydia had the participants of the dish we have already seen,neutral,4,neutral,surprise,False,12
+small conflicts between nastya and mora i am due to,surprise,6,surprise,neutral,False,10
+that mutual sympathy arose between them,surprise,6,surprise,happiness,False,6
+he wants me,surprise,6,surprise,happiness,False,3
+what a horror to whom is sympathy for him ?,surprise,6,surprise,fear,False,10
+what are you talking about ? his hair is longer than mine,happiness,3,happiness,surprise,False,12
+enjoy,neutral,4,neutral,happiness,False,1
