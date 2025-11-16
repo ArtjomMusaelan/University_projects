@@ -11,7 +11,7 @@ Content Intelligence Emotion Recognition - Phase 2: Production Deployment
 
 ## Overview
 
-Production deployment of the emotion detection models from [Phase 1](https://github.com/...). Transforms research prototypes into a scalable, cloud-deployed MLOps platform with automated pipelines, multiple deployment strategies, and comprehensive monitoring.
+Production deployment of the emotion detection models from [Phase 1](https://github.com/ArtjomMusaelan/University_projects/tree/main/NLP_ContentIntelligenceAgency). Transforms research prototypes into a scalable, cloud-deployed MLOps platform with automated pipelines, multiple deployment strategies, and comprehensive monitoring.
 
 **Client:** Content Intelligence (outstanding content)  
 **Institution:** Breda University of Applied Sciences  
@@ -347,7 +347,7 @@ GET /health
 
 ## Related Projects
 
-**Phase 1:** [Research & Model Development](https://github.com/...)
+**Phase 1:** [Research & Model Development](https://github.com/ArtjomMusaelan/University_projects/tree/main/NLP_ContentIntelligenceAgency)
 - Focus: French emotion detection, explainable AI
 - Achievement: 63% accuracy, LIME + Grad-CAM visualization
 

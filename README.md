@@ -4,9 +4,9 @@
 Data Science & Artificial Intelligence Student  
 Breda University of Applied Sciences
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/your-username)
-[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/artem-musaelan-50a54a327/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/ArtjomMusaelan)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:artjom2004.lv@gmail.com)
 
 ---
 
@@ -452,33 +452,6 @@ Multiple deployed systems with real users, performance metrics, and continuous i
 **University:** Breda University of Applied Sciences
 
 **Status:** Seeking Data Science internships and opportunities
-
----
-
-## How to Navigate This Portfolio
-
-### For Recruiters & Hiring Managers
-1. **Quick Overview:** Check [Key Achievements](#-key-achievements) and [Portfolio Impact](#-portfolio-impact)
-2. **Technical Skills:** Review [Core Competencies](#-core-competencies)
-3. **Project Depth:** Browse [Featured Projects](#-featured-projects)
-4. **Growth Story:** See [Skills Development Journey](#-skills-development-journey)
-
-### For Technical Reviewers
-1. **Code Quality:** Explore individual project repositories
-2. **Architecture Decisions:** Read technical details in each project README
-3. **Performance Metrics:** Check results sections in project descriptions
-4. **Best Practices:** Review MLOps deployment and production systems
-
-### For Fellow Students
-1. **Learning Path:** See [Skills Development Journey](#-skills-development-journey)
-2. **Project Structure:** Check repository organization patterns
-3. **Documentation:** Review README templates across projects
-4. **Team Collaboration:** Examine team project structures
-
-### For Potential Collaborators
-1. **Team Experience:** ANWB (5), MLOps (5), Emotion NLP (3), Cybersecurity (4)
-2. **Technical Stack:** Python, Azure ML, Docker, FastAPI, Transformers
-3. **Working Style:** Agile methodology, clear role definition, professional documentation
 
 ---
 
