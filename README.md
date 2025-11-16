@@ -6,7 +6,7 @@ Breda University of Applied Sciences
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/artem-musaelan-50a54a327/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/ArtjomMusaelan)
-[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:artjom2004.lv@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](artjom2004.lv@gmail.com)
 
 ---
 
@@ -447,7 +447,7 @@ Multiple deployed systems with real users, performance metrics, and continuous i
 
 **Email:** artjom2004.lv@gmail.com 
 **LinkedIn:** [linkedin.com/in/artjom-musaelans](https://www.linkedin.com/in/artem-musaelan-50a54a327/)  
-**GitHub:** [github.com/artjom-musaelans](https://github.com/your-username)  
+**GitHub:** [github.com/artjom-musaelans](https://github.com/ArtjomMusaelan)  
 **Location:** Breda, Netherlands  
 **University:** Breda University of Applied Sciences
 
