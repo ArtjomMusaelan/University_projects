@@ -79,7 +79,7 @@ ML pipeline processing 16,535+ player records with 116 features. Achieved 99.03%
 #### [Natural Disaster Image Classifier](./Classifer_of_natural_disasters)
 **Block C | Deep Learning | Computer Vision**
 
-CNN system achieving 98.3% validation accuracy across 5 disaster classes (floods, wildfires, earthquakes, tornadoes, snowstorms). Scraped 500+ images, implemented 4 progressive CNN architectures, integrated explainable AI (LIME, KernelSHAP), conducted fairness analysis, and performed human-centered design with A/B testing.
+CNN system achieving 98.3% validation accuracy across 2 disaster classes (floods, wildfires). Scraped 300+ images, implemented 4 progressive CNN architectures, integrated explainable AI (LIME, KernelSHAP), conducted fairness analysis, and performed human-centered design with A/B testing.
 
 **Achievement:** 98.3% validation accuracy, 87.5% test accuracy  
 **Technologies:** TensorFlow/Keras, Selenium, LIME, KernelSHAP  
